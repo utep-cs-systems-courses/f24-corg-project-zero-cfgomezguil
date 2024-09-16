@@ -26,3 +26,12 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+void print_arrow(int start_triangle, int start_square)
+{
+  print_triangle(start_triangle,7);
+  print_square(start_square,5);
+}
+
+
+
+
