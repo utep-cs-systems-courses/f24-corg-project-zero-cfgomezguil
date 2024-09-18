@@ -25,7 +25,7 @@ void print_triangle(int leftCol, int size)
     putchar('\n');
   }
 }
-
+// Print's an arrow by using the displacement value for both triangle and square.
 void print_arrow(int start_triangle, int start_square)
 {
   print_triangle(start_triangle,7);
